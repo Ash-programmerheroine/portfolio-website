@@ -10,7 +10,7 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-end m-2 p-2">
                     <Link
-                        href="Projects/create"
+                        href="projects/create"
                         class="
                         px-4
                         py-2

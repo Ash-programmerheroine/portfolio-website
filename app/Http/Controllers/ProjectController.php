@@ -2,15 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\ProjectResource;
+use App\Models\Project;
+use App\Models\Skill;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
+
 class ProjectController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
-    {
+    {  
         return Inertia::render('Projects/Index');
     }
 
@@ -19,7 +25,8 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        return Inertia::render('Projects/Create');
+        $skills = Skill::all();
+        return Inertia::render('Projects/Create', compact('skills'));
     }
 
     /**
@@ -27,7 +34,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request);
     }
 
     /**
