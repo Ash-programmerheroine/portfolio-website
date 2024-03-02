@@ -1,28 +1,35 @@
 <script setup>
-import { Head, Link } from '@inertiajs/vue3';
+import { Head, Link } from "@inertiajs/inertia-vue3";
+import FrontendLayout from "@/Layouts/Frontend.vue";
+import Hero from "@/Components/Frontend/Hero.vue";
+import Promote from "@/Components/Frontend/Promote.vue";
+import About from "@/Components/Frontend/About.vue";
+
+import Services from "@/Components/Frontend/Services.vue";
+import Contact from "../Components/Frontend/Contact.vue";
 
 defineProps({
-    canLogin: {
-        type: Boolean,
-    },
-    canRegister: {
-        type: Boolean,
-    },
-    laravelVersion: {
-        type: String,
-        required: true,
-    },
-    phpVersion: {
-        type: String,
-        required: true,
-    },
+  skills: Object,
+  projects: Object,
 });
 </script>
 
 <template>
-    <Head title="Welcome to my portfolio" />
-
-    
+  <Head title="Welcome to portfolio" />
+  <FrontendLayout>
+    <!-- Hero primary -->
+    <Hero />
+    <!-- Promote tail-100 -->
+    <Promote />
+    <!-- About secondary -->
+    <About />
+    <!-- Skills tail-100 -->
+   
+    <!-- Services secondary -->
+    <Services />
+    <!-- Contact primary -->
+    <Contact />
+  </FrontendLayout>
 </template>
 
 
