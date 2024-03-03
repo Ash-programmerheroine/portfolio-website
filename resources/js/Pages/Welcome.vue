@@ -8,10 +8,7 @@ import About from "@/Components/Frontend/About.vue";
 import Services from "@/Components/Frontend/Services.vue";
 import Contact from "../Components/Frontend/Contact.vue";
 
-defineProps({
-  skills: Object,
-  projects: Object,
-});
+
 </script>
 
 <template>
@@ -24,7 +21,9 @@ defineProps({
     <!-- About secondary -->
     <About />
     <!-- Skills tail-100 -->
-   
+    <Skills  />
+    <!-- Portfolio primary -->
+    <Portfolio  />
     <!-- Services secondary -->
     <Services />
     <!-- Contact primary -->

@@ -16,8 +16,8 @@
         <div class="flex space-x-6 items-center justify-center">
           <img
             class="h-8 w-auto"
-            src="http://portfolio.test/img/logo.png"
-            alt="Laraveller.com"
+            src="https://i.ibb.co/gz9Nhs8/Aesthetic-Minimalist-Elegant-Signature-Logo.png"
+            alt="Ashrafi khanam"
           />
         </div>
         <p class="text-paragraph opacity-80 text-[15px]">

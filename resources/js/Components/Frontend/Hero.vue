@@ -26,9 +26,9 @@
         y: 0,
       }"
     >
-      <div class="flex flex-col md:flex-row items-center h-full pt-8">
+    <div class="flex flex-col md:flex-row items-center h-full pt-30 ">
         <div class="flex-1 flex flex-col items-center lg:items-start">
-          <p class="text-lg text-accent text-md mb-[22px]">Hey, I'm Tony! 👋</p>
+          <p class="text-lg text-accent text-md mb-[22px]">Hey, I'm Ashrafi! 👋</p>
           <h1
             class="
               text-4xl
@@ -38,9 +38,9 @@
               font-bold
               md:tracking-[-2px]
             "
-          >
-            I Build & Design <br />
-            Web Interfaces.
+          > Bringing Your <br/>
+          Visions to Reality...   <br />
+            
           </h1>
           <p
             class="
@@ -52,13 +52,13 @@
               lg:text-left
             "
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-            dolor elit.
+          Crafting Laravel Solutions with Precision
           </p>
           <button
             class="
               btn btn-md
               bg-accent
+              text-light-secondary
               hover:bg-light-secondary hover:text-light-tail-500
               dark:hover:bg-dark-secondary dark:hover:text-dark-navy-100
               md:btn-lg

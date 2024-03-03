@@ -33,8 +33,8 @@ export default {
                 "dark-navy-100": "#07567D",
                 "dark-navy-500": "#292D42",
                 accent: {
-                    DEFAULT: "#ac6b34",
-                    hover: "#925a2b",
+                    DEFAULT: "#631F4F",
+                    hover: "#b350a0",
                 },
                 paragraph: "#878e99",
                 blue: colors.blue,

@@ -32,22 +32,13 @@ onMounted(() => {
       class="container flex flex-wrap justify-between items-center mx-auto"
       bis_skin_checked="1"
     >
-      <a href="https://laraveller.com/" class="flex items-center">
+      <a href="https://ashrafikhanam.com/" class="flex items-center">
         <img
-          src="http://portfolio.test/img/logo.png"
+          src="https://i.ibb.co/gz9Nhs8/Aesthetic-Minimalist-Elegant-Signature-Logo.png"
           class="mr-3 h-6 sm:h-9"
-          alt="Laraveller Logo"
+          alt="Ashrafi khanam"
         />
-        <span
-          class="
-            self-center
-            text-xl
-            font-semibold
-            whitespace-nowrap
-            dark:text-white
-          "
-          >Ashrafi</span
-        >
+       
       </a>
       <button
         @click="showMobileMenu = !showMobileMenu"
