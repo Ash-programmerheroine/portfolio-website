@@ -4,11 +4,15 @@ import FrontendLayout from "@/Layouts/Frontend.vue";
 import Hero from "@/Components/Frontend/Hero.vue";
 import Promote from "@/Components/Frontend/Promote.vue";
 import About from "@/Components/Frontend/About.vue";
-
+import Skills from "@/Components/Frontend/Skills.vue";
+import Portfolio from "@/Components/Frontend/Portfolio.vue";
 import Services from "@/Components/Frontend/Services.vue";
 import Contact from "../Components/Frontend/Contact.vue";
 
-
+defineProps({
+  skills: Object,
+  projects: Object,
+});
 </script>
 
 <template>
@@ -21,10 +25,9 @@ import Contact from "../Components/Frontend/Contact.vue";
     <!-- About secondary -->
     <About />
     <!-- Skills tail-100 -->
-    <Skills  />
+    <Skills :skills="skills" />
     <!-- Portfolio primary -->
-    <Portfolio  />
-    <!-- Services secondary -->
+    <Portfolio :skills="skills" :projects="projects" />
     <Services />
     <!-- Contact primary -->
     <Contact />

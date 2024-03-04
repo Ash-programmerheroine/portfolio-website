@@ -30,16 +30,14 @@
               <h2 class="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
                 About Me
               </h2>
-              <P class="mb-4 text-accent">Freelance frontend Web developer</P>
+              <P class="mb-4 text-accent">Freelance Fullstack Web developer</P>
               <hr class="mb-8 opacity-90 dark:opacity-5" />
               <p class="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
-                <br />
-                Qui doloremque quod sit accusantium unde totam inventore
-                cupiditate ratione esse maxime eum recusandae ducimus.
+                A passionate and enthusiastic web designer and developer, strong entrepreneurship professional who graduated from Ahsanullah University of Science and Technology. 
+I have developed 200+ websites using --
+➤WordPress, 
+➤Laravel
+➤Vue
               </p>
             </div>
             <a href="#contact" class="btn btn-md bg-accent text-light-tail-100">
